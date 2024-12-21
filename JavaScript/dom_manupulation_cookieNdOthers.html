@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="dom_manupulation.js"></script>
+
+        <title>Dom Manipulation</title>
+    </head>
+    <body>
+        <p></p>
+        <button onclick="Demo()">click</button>
+
+        <script>
+            // function Demo() {
+            //     // var info = document.cookie;
+            //     // var info = document.domain;
+            //     // var info = document.lastModified;
+            //     // var info = document.title;
+            //     var info = document.URL;
+            //     document.getElementsByTagName('p')[0].innerHTML = info;
+            // }
+
+            function Demo() {
+                document.open('text/html', 'replace');
+                document.write('<h2> My Name </h2>');
+                document.close;
+            }
+        </script>
+    </body>
+</html>

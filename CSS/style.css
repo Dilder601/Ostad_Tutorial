@@ -1,0 +1,11 @@
+:root {
+    --primaryColor: #22ff;
+    --primaryFont: 14px;
+    --primaryFontWeight: 600;
+}
+
+p {
+    color: var(--primaryColor);
+    font-size: var(--primaryFont);
+    font-weight: var(--primaryFontWeight);
+}

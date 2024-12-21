@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="dom_manupulation.js"></script>
+
+        <title>Dom Manipulation</title>
+    </head>
+    <body>
+        <!-- example with id -->
+
+        <!-- <h1 id="myId"></h1>
+
+        <script>
+            var myElement = document.getElementById('myId');
+            myElement.innerHTML = 'Eid Mubarak';
+        </script> -->
+
+        <!-- example with class / name / tag similar -->
+        <h1 class="nyClass"></h1>
+        <h6 class="nyClass"></h6>
+        <button class="nyClass"></button>
+
+        <script>
+            var myElements = document.getElementsByClassName('nyClass');
+            // var myElements = document.grtElementByName('nyClass');
+            // var myElements = document.grtElementByTagName('nyClass');
+
+            myElements[2].innerHTML = 'Eid Mubarak';
+        </script>
+    </body>
+</html>

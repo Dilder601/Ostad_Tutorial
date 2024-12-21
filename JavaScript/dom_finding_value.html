@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dom Practice</title>
+    </head>
+    <body>
+        <input id="num1" type="number" /> <br />
+        <br />
+        <input id="num2" type="number" /> <br />
+        <br />
+        <button onclick="AddTwoNumber()">Add</button>
+
+        <script>
+            function AddTwoNumber() {
+                let num1 = document.getElementById('num1').value;
+                let num2 = document.getElementById('num2').value;
+
+                let result = parseFloat(num1) + parseFloat(num2);
+
+                alert(result);
+            }
+        </script>
+    </body>
+</html>
