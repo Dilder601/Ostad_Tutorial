@@ -6,3 +6,6 @@ if ($pos === false) {
 } else {
     echo "Found at position: $pos\n";
 }
+//strrpos() function
+//strripos() function
+//stripos() function
